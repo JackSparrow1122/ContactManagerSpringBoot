@@ -1,7 +1,6 @@
 package com.deep.springboot.controller;
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -18,8 +17,6 @@ import com.deep.springboot.entity.Contacts;
 import com.deep.springboot.entity.User;
 import com.deep.springboot.services.ContactService;
 
-import jakarta.annotation.security.RolesAllowed;
-import jakarta.servlet.http.HttpSession;
 
 @RestController
 @CrossOrigin(origins = "*")
